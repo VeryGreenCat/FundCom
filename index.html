@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head id="head">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Project</title>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prompt&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mooli&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="title">
+      <h1>
+        <div class="sugar">
+          <span>P</span>
+          <span>r</span>
+          <span>o</span>
+          <span>f</span>
+          <span>i</span>
+          <span>l</span>
+          <span>e</span>
+        </div>
+      </h1>
+    </section>
+    <section class="navbar">
+      <ul>
+        <li><a href="#profile">Profile</a></li>
+        <li><a href="#video">Video</a></li>
+        <li><a href="#article">Article</a></li>
+        <li><a href="#credit">Credits</a></li>
+      </ul>
+    </section>
+
+    <div class="nav__menu__btn" id="menu-btn">
+      <span><i class="ri-menu-line"></i></span>
+    </div>
+    <section class="profile" id="profile">
+      <div class="profile-info">
+        <h3>About Me</h3>
+        <p>
+          ชื่อ-สกุล : กษิดิส ทองบุญ <br />
+          Name : Kasidis Tongboon <br />
+          รหัสนักศึกษา : 6604062630030 <br />
+          เกิดวันที่ : 14 ตุลาคม พ.ศ.2548 <br />
+          ชื่อเล่น : เบสท์ <br />
+          อายุ : 17 ปี <br />
+          สีที่ชอบ : สีเขียว <br />
+          งานอดิเรก : เล่นเกม ดูหนัง ฟังเพลง ออกกำลังกาย <br />
+          เป้าหมายในอนาคต : ค้นพบสิ่งที่ตัวเองชอบ <br />
+          ที่อยู่ปัจจุบัน :
+        </p>
+      </div>
+    </section>
+
+    <section class="history">
+      <div class="history-info">
+        <section>
+          <h3>Educational</h3>
+        </section>
+        <div class="row1">
+          <div class="box1">
+            <img class="spinlogo1" src="kaset.png" height="150" />
+          </div>
+          <div class="box2">
+            Kaset Home Economics Kindergarden <br />(2008-2010)
+          </div>
+          <div class="box3">
+            <img src="cropele.jpg" height="150" />
+          </div>
+        </div>
+        <div class="row2">
+          <div class="box4">
+            <img class="spinlogo2" src="attamit.png" height="150" />
+          </div>
+          <div class="box5">Attamit School <br />(2011-2016)</div>
+          <div class="box6">
+            <img src="heyp6.jpg" height="150" />
+          </div>
+        </div>
+        <div class="row3">
+          <div class="box7">
+            <img class="spinlogo3" src="logo_horwang.png" height="150" />
+          </div>
+          <div class="box8">Horwang School <br />(2017-2022)</div>
+          <div class="box9">
+            <img src="m1.jpg" height="150" />
+          </div>
+        </div>
+        <div class="row4">
+          <div class="box10">
+            <img class="spinlogo4" src="kmutnb.png" height="150" />
+          </div>
+          <div class="box11">KMUTNB <br />(2023~)</div>
+          <div class="box12">
+            <img src="year1.jpg" height="150" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="video" id="video">
+      <div class="video-info">
+        <section>
+          <h3>Video</h3>
+        </section>
+        <div class="actualvid">
+          <!-- width="800" height="450" -->
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube-nocookie.com/embed/30mzdf1S0yQ?si=y0AndKo6HwCSKZXw"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section class="article" id="article">
+      <div class="article-info">
+        <section>
+          <h3>5 Ways To Vertically Center With CSS</h3>
+        </section>
+        <div class="actualarticle">
+          1. Margin Auto <br />
+          <br />The position property can be used to center an element
+          vertically, which is an older CSS trick. <br />We can set the margin
+          to auto and give the top and bottom positions of the element equal
+          values. This automatically places the element on the y-axis with
+          proper margins. To prevent the element from spanning the entire
+          height, we must set the height of the element specifically. We've set
+          the top and bottom positions to zero in this example.<br />
+          <img src="ex1.png" height="400px" /><br />
+          2. Negative Margins <br />
+          <br />For many developers, this was one of the first and is still
+          their go-to method. In this method, the top is placed in the vertical
+          direction at halfway (50 percent). Then, using a negative margin, move
+          the element's upper half over the mid-point.<br />
+          <br /><img src="ex2.png" height="400px" /><br />
+          3. Translate <br />
+          <br />We can modify the last centering method to find a solution that
+          solves the explicit heights problem. We use translateY to move the
+          element up 50% along the y-axis after putting the top of the element
+          in the center.<br />
+          <img src="ex3.png" height="400px" /><br />
+          4. Tables and Vertical Align <br />
+          <br />Using the behavior of table cells and vertical-align to center
+          an element on the container is fairly easy and one of the first
+          approaches back in the day, when everything was tabled.<br />
+          <br />For content inside table cells, CSS provides the vertical-align
+          attribute. We may use this to center the content by declaring the
+          element a table cell (and its parent as a table). Set the display of a
+          div to table-cell if you're using one. You can also utilize actual
+          table elements, however, this is not a semantically accurate
+          option.<br />
+          <img src="ex4.png" height="400px" /><br />
+          5. The Ghost Element <br />
+          <br />Using inline-block with a ghost (pseudo) element that has 100
+          percent of the parent's height and setting the vertical-align property
+          to centre is another oldie that hasn't caught on for some reason.<br />
+          <img src="ex5.png" height="400px" /><br />
+        </div>
+      </div>
+    </section>
+
+    <section class="credit" id="credit">
+      <div class="credit-info">
+        <h3>Credit</h3>
+        <div class="actualcredit">
+          Language : Html 5, Css, Javascript <br />
+          <br />Tool : Visual Studio Code, Google Chrome<br />
+          <br />Article :
+          <a
+            href="https://www.atatus.com/blog/13-ways-you-can-vertically-center-content-in-css/"
+            target="_blank"
+            >13 Ways You Can Vertically Center Content in CSS</a
+          ><br />
+          <br />Logo :
+          <a
+            href="https://www.khek.ac.th/wp-content/uploads/2023/05/Logo_White-1024x1024.png"
+            target="_blank"
+            >Kaset Home Economics Kindergarden</a
+          >,<a
+            href="https://www.facebook.com/photo/?fbid=583089320277665&set=a.583089306944333&locale=be_BY"
+            target="_blank"
+            >Attamit</a
+          >,<a
+            href="https://www.facebook.com/photo/?fbid=579059537347737&set=a.579059500681074"
+            target="_blank"
+            >Horwang</a
+          >,<a
+            href="https://www.kmutnb.ac.th/about/symbols.aspx"
+            target="_blank"
+            >KMUTNB</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- scroll to top -->
+    <div class="scrolltoprofile"><a href="#head">top</a></div>
+    <!-- javascript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        // Add smooth scrolling to all links
+        $("a").on("click", function (event) {
+          // Make sure this.hash has a value before overriding default behavior
+          if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $("html, body").animate(
+              {
+                scrollTop: $(hash).offset().top,
+              },
+              800,
+              function () {
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+              }
+            );
+          } // End if
+        });
+      });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
